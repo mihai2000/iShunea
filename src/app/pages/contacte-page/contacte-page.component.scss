@@ -1,0 +1,145 @@
+.p1
+{
+  margin-top: 30%;
+  margin-bottom: 50px;
+}
+h1
+{
+  font-size: 80px;
+  font-weight: bold;
+  color: #3C3C3C;
+}
+.text
+{
+  margin: 100px 200px;
+  position: relative;
+  width: 50%;
+  height: 100px;
+  flex-wrap: wrap;
+  font-size: 40px;
+  color: #8F9BB3;
+  line-height: 70px;
+  text-align: justify;
+}
+.contact-form{
+  position: relative;
+  background: #F5F5F5;
+  border-radius: 5px;
+  bottom: 200px;
+  width: 30%;
+  height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-group
+{
+  margin-bottom: 30px;
+  position: relative;
+}
+input
+{
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  outline: none;
+  color: black;
+  border: 0px;
+  background: white;
+  font-size: 30px;
+  border-radius: 10px;
+}
+textarea
+{
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  outline: none;
+  border: 0px;
+  color: black;
+  background: white;
+  font-size: 30px;
+  border-radius: 10px;
+}
+::-webkit-input-placeholder
+{
+  color: black;
+  font-size: 30px;
+  padding-left: 30px;
+}
+.buton
+{
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
+button
+{
+  padding: 5px 0;
+  color: black;
+  outline: none;
+  background: #FAFAFA;
+  border: 0px;
+  width: 30%;
+  height: 80px;
+  cursor: pointer;
+  font-size: 35px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.row
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row .input-group
+{
+  flex-basis: 48%;
+}
+.contact
+{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 70px;
+  bottom: 100px;
+}
+.contacts
+{
+  display: flex;
+  flex-direction: column;
+  background: #F5F5F5;
+  border-radius: 5px;
+  margin: 100px 30px;
+  width: 70%;
+  height: 300px;
+  font-size: 40px;
+  justify-content: center;
+  align-content: center;
+  padding-left: 50px;
+}
+.contacts p:nth-child(1)
+{
+  font-weight: bolder;
+}
+.cont
+{
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+.foto
+{
+  position: absolute;
+  background: #BDBDBD;
+  border: 1px solid #BDBDBD;
+  border-radius: 50%;
+  width: 75px;
+  height: 70px;
+  margin-left: 700px;
+}
+svg
+{
+  margin: 20px;
+  color: white;
+}

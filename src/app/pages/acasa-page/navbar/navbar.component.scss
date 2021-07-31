@@ -1,0 +1,30 @@
+.img
+{
+  position: relative;
+  width:100%;
+}
+.navbar
+{
+  position: absolute;
+  top: 75px;
+  right: 100px;
+  font-size: 30px;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+nav .navbar-nav li a{
+  color: white;
+  text-decoration: none;
+}
+.dropdown-item
+{
+  color: black !important;
+}
+.dropdown
+{
+  margin-top: -7px;
+}
+
+

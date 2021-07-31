@@ -1,0 +1,48 @@
+ul
+{
+  list-style: none;
+}
+.footer
+{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 60px;
+}
+ul li:nth-child(1){
+  font-weight: bold;
+}
+ul{
+  margin:100px;
+}
+.copywright
+{
+  color:#8C8C8C;
+  font-size: 25px;
+  text-align: center;
+}
+img
+{
+  height: 120px;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+svg
+{
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  color: black;
+}
+.copywright
+{
+  margin: 40px;
+}
+.tel , .mail
+{
+ text-decoration: none;
+  color: black;
+  font-weight: normal;
+}

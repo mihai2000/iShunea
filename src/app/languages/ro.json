@@ -1,0 +1,10 @@
+var arrLang = {
+  "ro":
+    {
+      "servicii": "servicii",
+      "portfolio": "Portfolio",
+      "cariera" : "Cariera",
+      "despre noi" : "Despre noi",
+      "contacte" : "Contacte"
+    }
+};

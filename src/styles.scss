@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import 'assets/fonts/SF Pro Display/stylesheet.css';
+*
+{
+  font-family: 'SF Pro Display',sans-serif;
+}
+body
+{
+  background-color: #F5F5F5;
+}

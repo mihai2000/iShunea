@@ -1,0 +1,55 @@
+<app-navbar-servicii></app-navbar-servicii>
+<ng-template  #content let-modal>
+  <div style="margin:20px 100px">
+    <h2 class="modal-title" style="font-size: 50px;font-weight: bold;">DEZVOLTAREA <br> APLICAȚIILOR MOBILE</h2>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body d-flex flex-column">
+    <h3 class="text-muted" style="line-height: 80px;">Android, iOS, Windows Phone</h3>
+    <h2>Dezvoltăm aplicații mobile intuitive și atractive pentru utilizatorii tăi. Specialiștii noștri pot dezvolta
+      aplicații mobile pentru Android, iOS și Windows Phone.
+    </h2> <br>
+    <h2>
+      O aplicatie mobila ar trebui să fie intuitivă, atractivă și să aibă o viteză bună de încărcare, astfel încât
+      să ofere cea mai bună experiență utilizatorilor. Echipa noastră este formată din programatori cu experiență
+      îndelungată în lucrul cu aplicațiile online, gata să înțeleagă importanța businessului tău și să-l extindă.
+      Facem parte dintr-o industrie competitivă, așa că vrem să ducem crearea de aplicații mobile la un stadiu nou în Moldova.
+    </h2>
+  </div>
+</ng-template>
+
+<h1 class="d-flex flex-column justify-content-center align-items-center">Servicii</h1>
+<div class="items">
+  <div class="d-flex flex-row">
+    <img class="item2" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20320.png" alt="">
+    <div class="d-flex flex-column">
+    <img  class="item_SEO" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20281.png" alt="">
+    <div class="d-flex flex-row">
+    <img  class="item3" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20319.png" alt="">
+    <img  class="item3" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20318.png" alt="">
+    </div>
+    </div>
+  </div>
+  <div class="d-flex flex-row">
+    <img class="item1" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20314.png" alt="">
+    <img class="item_site" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20279.png" alt="">
+    <div class="d-flex flex-column">
+    <img class="item4" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20282.png" alt="">
+    <img class="item4" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20321.png" alt="">
+    </div>
+  </div>
+  <div class="d-flex flex-row">
+    <div class="d-flex flex-column justify-content-between">
+    <img class="item_SEO" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20322.png" alt="">
+      <div class="d-flex flex-row">
+    <img class="item3" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20319.png" alt="">
+    <img class="item3" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20324.png" alt="">
+      </div>
+    </div>
+    <img class="item2_2" (click)="openVerticallyCentered({content : content})" src="./assets/images/Frame%20325.png" alt="">
+  </div>
+</div>
+
+<app-comanda-apel></app-comanda-apel>
