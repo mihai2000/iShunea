@@ -13,7 +13,6 @@ import { ContactePageComponent } from './pages/contacte-page/contacte-page.compo
 import { NavbarComponent } from './pages/acasa-page/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarieraPageComponent } from './pages/cariera-page/cariera-page.component';
-import { AcasaBannerComponent } from './pages/acasa-page/acasa-banner/acasa-banner.component';
 import { AcasaDetaliiComponent } from './pages/acasa-page/acasa-detalii/acasa-detalii.component';
 import { ComandaConsultatiiComponent } from './pages/acasa-page/comanda-consultatii/comanda-consultatii.component';
 import { CumLucramNoiComponent } from './pages/acasa-page/cum-lucram-noi/cum-lucram-noi.component';
@@ -38,7 +37,6 @@ import { NavbarCarieraComponent } from './pages/cariera-page/navbar-cariera/navb
     ContactePageComponent,
     NavbarComponent,
     CarieraPageComponent,
-    AcasaBannerComponent,
     AcasaDetaliiComponent,
     ComandaConsultatiiComponent,
     CumLucramNoiComponent,

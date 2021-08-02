@@ -1,25 +1,3 @@
-<ng-template  #content let-modal>
-  <div style="margin:20px 100px">
-    <h2 class="modal-title" style="font-size: 45px;font-weight: bold;">INDICA DATELE PERSONALE</h2>
-    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body">
-    <form action="https://formsubmit.co/mihaidankrutoi@gmail.com" method="post">
-      <div class="form-group row">
-        <label for="name">Numele vostru<span class="cl">*</span></label>
-        <input type="text" id="name" required>
-      </div>
-      <div class="form-group row">
-        <label for="number">Numarul de telefon<span class="cl">*</span></label>
-        <input type="text" id="number" required>
-      </div>
-      <button class="send" type="submit">Trimite</button>
-    </form>
-  </div>
-</ng-template>
-
 <div class="bgColor">
   <div>
     <h1 class="first">De ce noi?</h1>
@@ -76,41 +54,41 @@
   </div>
 <div>
   <h1 class="second">Tipuri de proiecte</h1>
-  <div class="d-flex flex-row justify-content-center">
-  <div class="card" style="width: 40rem; height: 45rem">
+  <div class="d-flex flex-row cards">
+  <div class="card" style="width: 315px; height: 368px">
     <img class="card-img-top" src="./assets/images/Rectangle%20442.png" alt="Card image cap">
     <div class="card-body">
       <h2 class="card-title fw-bold">Pagina landing</h2>
       <p class="card-text">Termen: de la 15 zile lucrătoare</p>
       <h3 class="fw-bold card-text">De la 6000 lei</h3>
-      <a href="#" class="btn btn-primary" (click)="openVerticallyCentered({content : content})">Vezi mai multe</a>
+      <a href="#" class="btn btn-primary">Vezi mai multe</a>
     </div>
   </div>
-  <div class="card" style="width: 40rem; height: 45rem">
+  <div class="card" style="width: 315px; height: 368px">
     <img class="card-img-top" src="./assets/images/Rectangle%20443.png" alt="Card image cap">
     <div class="card-body">
       <h2 class="card-title fw-bold">Site corporativ</h2>
       <p class="card-text">Termen: de la 20 zile lucrătoare</p>
       <h3 class="fw-bold card-text">De la 9000 lei</h3>
-      <a href="#" class="btn btn-primary" (click)="openVerticallyCentered({content : content})">Vezi mai multe</a>
+      <a href="#" class="btn btn-primary" >Vezi mai multe</a>
     </div>
   </div>
-  <div class="card" style="width: 40rem; height: 45rem">
-    <img class="card-img-top" src="./assets/images/Rectangle%20442%20(1).png" alt="Card image cap">
+  <div class="card" style="width: 315px; height: 368px">
+    <img class="card-img-top" src="./assets/images/Rectangle%20443%20(1).png" alt="Card image cap">
     <div class="card-body">
       <h2 class="card-title fw-bold">Internet magazin</h2>
       <p class="card-text">Termen: de la 25 zile lucrătoare</p>
       <h3 class="card-text fw-bold">De la 12 000 lei</h3>
-      <a href="#" class="btn btn-primary" (click)="openVerticallyCentered({content : content})">Vezi mai multe</a>
+      <a href="#" class="btn btn-primary" >Vezi mai multe</a>
     </div>
   </div>
-    <div class="card" style="width: 40rem; height: 45rem">
-      <img class="card-img-top" src="./assets/images/Rectangle%20443%20(1).png" alt="Card image cap">
+    <div class="card" style="width: 315px; height: 368px">
+      <img class="card-img-top" src="./assets/images/Rectangle%20442%20(1).png" alt="Card image cap">
       <div class="card-body">
         <h2 class="fw-bolder card-title">Aplicatii mobile</h2>
         <p class="card-text">Termen: de la 30 zile lucrătoare</p>
         <h3 class="fw-bold card-text">De la 20 000 lei</h3>
-        <a href="#" class="btn btn-primary" (click)="openVerticallyCentered({content : content})">Vezi mai multe</a>
+        <a href="#" class="btn btn-primary">Vezi mai multe</a>
       </div>
     </div>
   </div>
