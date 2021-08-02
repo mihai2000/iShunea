@@ -1,69 +1,71 @@
-img{
-  position: absolute;
-  width: 100%;
-  height: 70%;
+.img
+{
+  position: relative;
+  height: 700px;
+  width: 1920px;
+
 }
 .navbar
 {
   position: absolute;
-  top: 105px;
-  right: 100px;
-  font-size: 35px;
-
+  top: 60px;
+  right: -150px;
+  font-size: 16px;
 }
 .navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
+  padding-left:40px;
 }
 nav .navbar-nav li a{
-  color: white ;
+  color: white;
   text-decoration: none;
-}
-.dropdown
-{
-  margin-top: -7px;
 }
 .dropdown-item
 {
   color: black !important;
 }
+.dropdown
+{
+  margin-top: -7px;
+}
 .logo-img
 {
-  position: relative;
-  width: 90px;
-  left: 250px;
-  top: 100px;
+  position: absolute;
+  width: 43px;
+  height: 63px;
+  left: 300px;
+  top: 50px;
 }
 .txt4
 {
   position: absolute;
   color: white;
-  left:370px;
-  top: 105px;
-  font-size: 50px;
+  left: 370px;
+  top: 60px;
+  font-size: 24px;
   display: flex;
   flex-direction: column;
 }
 .txt-logo
 {
-  font-size: 30px;
+  font-size: 14px;
 }
 h1
 {
   position: absolute;
   color: white;
-  left: 42%;
-  top: 32%;
-  font-size: 80px;
+  text-align: center;
+  left: 800px;
+  top: 200px;
+  font-size: 36px;
 }
 .txt
 {
   display: flex;
   flex-wrap: wrap;
-  left: 10%;
-  top: 40%;
-  width: 83%;
+  left: 350px;
+  top: 280px;
+  width: 88%;
   position: absolute;
   color: white;
-  font-size: 35px;
+  font-size: 18px;
 }

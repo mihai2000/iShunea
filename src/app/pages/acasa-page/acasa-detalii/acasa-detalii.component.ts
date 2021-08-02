@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
 
 
 @Component({
@@ -9,11 +8,7 @@ import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
 })
 export class AcasaDetaliiComponent implements OnInit {
 
-  constructor(private modalService: NgbModal) {}
-
-  openVerticallyCentered({content}: { content: any }) {
-    this.modalService.open(content, { centered: true, size: "xl"});
-  }
+  constructor() {}
 
   ngOnInit(): void {
   }

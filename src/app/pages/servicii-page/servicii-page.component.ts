@@ -12,7 +12,7 @@ export class ServiciiPageComponent implements  OnInit{
 
 
   openVerticallyCentered({content}: { content: any }) {
-    this.modalService.open(content, { centered: true, size: 'xl'});
+    this.modalService.open(content, { centered: true, size: 'lg'});
   }
 
   ngOnInit(): void {

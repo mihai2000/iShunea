@@ -1,37 +1,31 @@
 .bgcolor
 {
   background-color: #F5F5F5;
-  padding: 50px;
+  padding-left: 300px;
   display: flex;
   justify-items: center;
-  height: 120%;
+  width: 1920px;
+  height: 630px;
 }
 table
 {
-  width: 100%;
-  height: 100%;
+ padding-left: 100px;
 }
-
 h1
 {
   text-align: center;
   padding: 50px;
-  font-size: 80px;
+  font-size: 36px;
 }
 h3
 {
-  font-size: 60px;
+  font-size: 24px;
   font-weight: 600;
-  padding-left: 100px;
-}
-tr{
-  padding-left: 300px;
-  padding-bottom: 50px;
+  padding-left: 10px;
 }
 li
 {
-  font-size: 30px;
-  line-height: 70px;
+  font-size: 16px;
 }
 
 ul {
@@ -39,15 +33,25 @@ ul {
 }
 img
 {
-  padding-right: 600px;
-  height: 90%;
-  width: 130%;
-}
-.text
-{
-  line-height: 55px;
+  width: 400px;
+  height: 300px;
+  padding-left:50px;
+  padding-bottom: 100px;
 }
 .txt1
 {
-  padding-left: 110px;
+line-height: 45px;
+}
+.text{
+  line-height: 22px;
+  padding-left: 100px;
+}
+.padding
+{
+  padding-left: 50px;
+}
+
+.line-height
+{
+  line-height: 40px;
 }
