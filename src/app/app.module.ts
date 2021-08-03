@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
-
 import {AppRoutingModule, routingComponents} from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AcasaPageComponent } from './pages/acasa-page/acasa-page.component';
@@ -25,6 +24,7 @@ import { NavbarPortfolioComponent } from './pages/portfolio-page/navbar-portfoli
 import { NavbarDespreNoiComponent } from './pages/despre-noi-page/navbar-despre-noi/navbar-despre-noi.component';
 import { NavbarContacteComponent } from './pages/contacte-page/navbar-contacte/navbar-contacte.component';
 import { NavbarCarieraComponent } from './pages/cariera-page/navbar-cariera/navbar-cariera.component';
+import { AngularFileUploaderModule } from 'angular-file-uploader';
 
 
 @NgModule({
@@ -55,6 +55,7 @@ import { NavbarCarieraComponent } from './pages/cariera-page/navbar-cariera/navb
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    AngularFileUploaderModule,
     MDBBootstrapModule.forRoot()
   ],
   providers: [],
