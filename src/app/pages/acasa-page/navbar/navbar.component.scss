@@ -1,9 +1,8 @@
-.img
+img
 {
   position: relative;
   height: 700px;
   width: 1920px;
-
 }
 .navbar
 {
@@ -13,27 +12,28 @@
   font-size: 16px;
 }
 .navbar-nav > li{
-  padding-left:40px;
+  padding-left:10px; //schimbare
 }
-nav .navbar-nav li a{
+nav .navbar-nav li a{  //schimbare
   color: white;
+  background: none;
   text-decoration: none;
 }
 .dropdown-item
 {
   color: black !important;
 }
-.dropdown
-{
-  margin-top: -7px;
-}
+//.dropdown
+//{
+//  margin-top: -12px;
+//}
 .logo-img
 {
-  position: absolute;
+  position: relative;
   width: 43px;
   height: 63px;
-  left: 300px;
-  top: 50px;
+  right: 690px; //schimbare
+  top: -10px;
 }
 .txt
 {
@@ -56,6 +56,7 @@ nav .navbar-nav li a{
 {
   color: white;
   font-size: 24px;
+  width: 80%;
   height: 100%;
 
 }
@@ -120,4 +121,249 @@ svg
   margin-left: 195px;
 }
 
+@media only screen and (max-width: 1024px)
+{
+  img
+  {
+    position: relative;
+    height: 768px;
+    width: 1024px;
+  }
+  .navbar
+  {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 16px;
+  }
+  .navbar-nav > li{
+    padding-left:10px;
+  }
+  nav .navbar-nav li a{
+    color: white;
+    background: none;
+    text-decoration: none;
+  }
+  .dropdown-item
+  {
+    color: black !important;
+  }
+  .logo-img
+  {
+    position: absolute;
+    width: 43px;
+    height: 63px;
+    right: 820px;
+    top: -10px;
+  }
+  .txt4
+  {
+    position: absolute;
+    color: white;
+    left: 170px;
+    top: 40px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .txt-logo
+  {
+    font-size: 14px;
+  }
+  .txt
+  {
+    position: absolute;
+    left:100px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-spacing: 8px;
+    margin-bottom: 20px;
+  }
+  .txt1
+  {
+    color: white;
+    font-size: 36px;
+
+  }
+  .txt3
+  {
+    color: white;
+    font-size: 24px;
+    width: 80%;
+    height: 108px;
+  }
+
+  .btn1
+  {
+    position: absolute;
+    width: 236px;
+    height: 61px;
+    top: 200px;
+    color: black;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    padding-top:10px;
+  }
+  .btn1:hover
+  {
+    background-color: #FFD300;
+    width: 240px;
+    height: 65px;
+  }
+  h1
+  {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .second_div
+  {
+    position: absolute;
+    border: 1px dashed #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: transparent;
+    width: 236px;
+    height: 61px;
+    top: 5px;
+    left: 5px;
+    border-top:none;
+    border-left: none;
+  }
+  .second_div:hover
+  {
+    border: 0;
+  }
+  svg
+  {
+    width: 30px;
+    height: 20px;
+    margin-left: 195px;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  img
+  {
+    position: relative;
+    margin-top: 90px;
+    height: 386px;
+    width: 768px;
+  }
+  .navbar
+  {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 16px;
+  }
+  .navbar-nav > li{
+    padding-left:10px;
+  }
+  nav .navbar-nav li a{
+    color: white;
+    background: none;
+    text-decoration: none;
+  }
+  .navbar-header
+  {
+    background: black;
+    color: black;
+    position: absolute;
+  }
+  .dropdown-item
+  {
+    color: black !important;
+  }
+  .logo-img
+  {
+    position: absolute;
+    width: 43px;
+    height: 63px;
+    right: 590px;
+    top: -120px;
+  }
+  .txt4
+  {
+    display: none;
+  }
+  .txt-logo
+  {
+    display: none;
+  }
+  .txt
+  {
+    position: absolute;
+    left:100px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-spacing: 8px;
+    margin-bottom: 20px;
+  }
+  .txt1
+  {
+    color: white;
+    font-size: 24px;
+
+  }
+  .txt3
+  {
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    height: 108px;
+  }
+
+  .btn1
+  {
+    position: absolute;
+    width: 236px;
+    height: 61px;
+    top: 150px;
+    color: black;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    padding-top:10px;
+  }
+  .btn1:hover
+  {
+    background-color: #FFD300;
+    width: 240px;
+    height: 65px;
+  }
+  h1
+  {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .second_div
+  {
+    position: absolute;
+    border: 1px dashed #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: transparent;
+    width: 236px;
+    height: 61px;
+    top: 5px;
+    left: 5px;
+    border-top:none;
+    border-left: none;
+  }
+  .second_div:hover
+  {
+    border: 0;
+  }
+  svg
+  {
+    width: 30px;
+    height: 20px;
+    margin-left: 195px;
+  }
+}
+@media only screen and (max-width: 375px) {
+}
 

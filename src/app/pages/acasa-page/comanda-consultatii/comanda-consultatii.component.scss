@@ -11,7 +11,8 @@
     flex-direction: row;
     width: 395px;
     height: 208px;
-    margin: 50px;
+    margin-left: 350px;
+    margin-top: 50px;
   }
 .txt
   {
@@ -20,7 +21,8 @@
     flex-wrap: wrap;
     align-items: center;
     align-content: flex-start;
-    margin: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
   }
 .txt a
   {
@@ -47,4 +49,103 @@
   {
     font-size: 16px;
   }
+
+@media only screen and (max-width: 1024px)
+{
+  .prime
+  {
+    background-color: #E5E5E5;
+    width: 1024px;
+    height: 334px;
+    color: black;
+  }
+  .three_n
+  {
+    display: flex;
+    flex-direction: row;
+    width: 333px;
+    height: 176px;
+    margin: 80px 27px 80px 47px;
+  }
+  .txt
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    margin: 80px 47px 80px 0;
+  }
+  .txt a
+  {
+    text-decoration: none;
+    color: black;
+  }
+  .btn
+  {
+    border:0;
+    border-radius: 4px;
+    background-color: white;
+    width: 223px;
+    height: 50px;
+    font-size: 16px;
+    color: black;
+    padding: 15px 20px;
+    font-weight: bold;
+  }
+  .p
+  {
+    font-size: 24px;
+  }
+  .p2
+  {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  .prime
+  {
+    background-color: #E5E5E5;
+    width: 768px;
+    height: 244px;
+    color: black;
+  }
+  .three_n
+  {
+    display: none;
+  }
+  .txt
+  {
+    flex-wrap: wrap;
+    margin: 40px;
+  }
+  .txt a
+  {
+    text-decoration: none;
+    color: black;
+  }
+  .btn
+  {
+    border:0;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 10px;
+    width: 223px;
+    height: 50px;
+    font-size: 16px;
+    color: black;
+    padding: 15px 20px;
+    font-weight: bold;
+  }
+  .p
+  {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .p2
+  {
+    font-size: 16px;
+  }
+}
 
