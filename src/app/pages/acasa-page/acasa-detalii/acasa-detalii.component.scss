@@ -27,7 +27,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-left: -20px;
 }
 .part p
 {
@@ -117,6 +116,8 @@ a:hover
   border: 2px solid #CCCCCC;
   margin: 30px 15px;
   border-radius: 6px;
+  width: 315px;
+  height: 368px;
 }
 .card-img-top{
   width: 255px;
@@ -134,4 +135,312 @@ a:hover
   border-radius: 6px;
   font-size: 16px;
   margin: 20px 15px;
+}
+@media only screen and (max-width: 1024px)
+{
+  .bgColor
+  {
+    background:#F5F5F5;
+    width: 1024px;
+  }
+  //de ce noi?
+  .first
+  {
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    color: #3C3C3C;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .detalii
+  {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: black;
+    margin-left: 30px;
+  }
+  .c1, .c2
+  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .c3
+  {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 10px;
+  }
+  .c3 .part:nth-child(2)
+  {
+    margin-left: 28px;
+  }
+  .part p
+  {
+    color: #BDBDBD;
+    font-size: 16px;
+
+  }
+  .part h2
+  {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+  .icon-img
+  {
+    display: flex;
+    flex-direction: row;
+    width: 61px;
+    height: 61px;
+    align-content: center;
+    margin: 40px 30px 30px 24px;
+  }
+  .part
+  {
+    position: relative;
+    border: 1px solid #E1E1E1;
+    background-color: white;
+    margin: 15px 5px;
+    border-radius: 6px;
+    width: 445px;
+    height: 127px;
+    box-shadow: 5px 5px 0 0 #E1E1E1;
+  }
+  .part:hover
+  {
+    display: inline-block;
+    box-shadow: 5px 5px 0 0 #FFD300;
+    border-radius: 6px;
+  }
+
+  //tipuri proiecte
+  .second
+  {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top:50px;
+    margin-left:30px;
+  }
+  .card-title
+  {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  h3
+  {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .card-title, .card-text
+  {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+  .card-body
+  {
+    line-height: 40px;
+  }
+
+  .card-body p{
+    color:  #8F9BB3;
+    font-size: 15px;
+  }
+  .cards{
+    margin-left: 0;
+  }
+  .card
+  {
+    border: 1px solid #CCCCCC;
+    margin: 30px 10px;
+    border-radius: 6px;
+    width: 300px;
+    height: 200px;
+  }
+  .card-img-top{
+    display: none;
+  }
+  a
+  {
+    background-color: #F5F5F5;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+  }
+  a:hover
+  {
+    background-color: #FFD300;
+    color: black;
+  }
+  .btn
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 210px;
+    height: 49px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 30px 5px;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  .bgColor
+  {
+    background:#F5F5F5;
+    width: 768px;
+  }
+  //de ce noi?
+  .first
+  {
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    color: #3C3C3C;
+    padding-top: 40px;
+  }
+
+  .detalii
+  {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: black;
+  }
+  .c1, .c2
+  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .c3
+  {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 10px;
+  }
+  .c3 .part:nth-child(2)
+  {
+    margin-left: 37px;
+  }
+  .part p
+  {
+    color: #BDBDBD;
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .part h2
+  {
+    font-size: 18px;
+    padding: 20px 15px 5px 15px;
+  }
+  .icon-img
+  {
+    display: none;
+  }
+  .part
+  {
+    position: relative;
+    border: 1px solid #E1E1E1;
+    background-color: white;
+    margin: 15px;
+    border-radius: 6px;
+    width: 326px;
+    height: 127px;
+    box-shadow: 5px 5px 0 0 #E1E1E1;
+  }
+  .part:hover
+  {
+    display: inline-block;
+    box-shadow: 5px 5px 0 0 #FFD300;
+    border-radius: 6px;
+  }
+
+  //tipuri proiecte
+  .second
+  {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top:30px;
+    margin-left:30px;
+  }
+  .card-title
+  {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  h3
+  {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .card-title, .card-text
+  {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+  .card-body
+  {
+    line-height: 40px;
+  }
+  .card-body p{
+    color:  #8F9BB3;
+    font-size: 15px;
+  }
+  .cards{
+   margin: 20px 30px;
+    flex-wrap: wrap;
+  }
+  .card
+  {
+    border: 1px solid #CCCCCC;
+    margin:0 10px 25px 10px;
+    border-radius: 6px;
+    width: 330px;
+    height: 200px;
+  }
+  .card-img-top{
+    display: none;
+  }
+  a
+  {
+    background-color: #F5F5F5;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+  }
+  a:hover
+  {
+    background-color: #FFD300;
+    color: black;
+  }
+  .btn
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 290px;
+    height: 49px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 30px 5px;
+  }
 }

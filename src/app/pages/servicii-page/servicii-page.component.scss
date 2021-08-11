@@ -39,6 +39,12 @@ h1
   height: 158px;
   margin: 10px;
 }
+.item5
+{
+  width: 660px;
+  height: 330px;
+  margin: 10px;
+}
 
 img:hover
 {
@@ -67,4 +73,141 @@ img:hover
 {
   font-size: 16px;
 }
-
+@media only screen and (max-width: 1024px)
+{
+  h1
+  {
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    padding: 50px 454px 30px 455px;
+  }
+  .items
+  {
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .item_SEO{
+    width: 450px;
+    height: 140px;
+    margin: 10px;
+  }
+  .item1
+  {
+    width: 290px;
+    height: 310px;
+    margin: 10px;
+  }
+  .item2
+  {
+    width: 450px;
+    height: 310px;
+    margin: 10px;
+  }
+  .item3
+  {
+    width: 215px;
+    height: 148px;
+    margin: 10px;
+  }
+  .item4
+  {
+    width: 220px;
+    height: 145px;
+    margin: 10px;
+  }
+  .item5
+  {
+    width: 370px;
+    height: 310px;
+    margin: 10px;
+  }
+  img:hover
+  {
+    filter: brightness(50%);
+    transition: 0.5s;
+  }
+  .close
+  {
+    font-size: 40px;
+    color: black !important;
+    margin-top:-50px;
+  }
+  .modal-body
+  {
+    font-weight: 400;
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+  .modal-body h5
+  {
+    font-size: 18px;
+    color: #C8C8C8;
+  }
+  .modal-body h2
+  {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  h1
+  {
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    padding: 50px 344px 30px 345px;
+  }
+  .items
+  {
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .item768
+  {
+    width: 210px;
+    height: 150px;
+    margin: 10px;
+  }
+  .no_item
+  {
+    display: none;
+  }
+  .col{
+    display: flex;
+    flex-direction: column;
+  }
+  .rand
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  img:hover
+  {
+    filter: brightness(50%);
+    transition: 0.5s;
+  }
+  .close
+  {
+    font-size: 40px;
+    color: black !important;
+    margin-top:-50px;
+  }
+  .modal-body
+  {
+    font-weight: 400;
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+  .modal-body h5
+  {
+    font-size: 18px;
+    color: #C8C8C8;
+  }
+  .modal-body h2
+  {
+    font-size: 16px;
+  }
+}

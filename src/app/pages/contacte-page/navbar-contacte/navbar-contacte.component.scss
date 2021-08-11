@@ -20,7 +20,7 @@ nav .navbar-nav li a{
 }
 .dropdown
 {
-  margin-top: -7px;
+  margin-top: -12px;
 }
 .dropdown-item
 {
@@ -57,3 +57,82 @@ h1
   top: 229px;
   font-size: 36px;
 }
+@media only screen and (max-width: 1024px) {
+  img
+  {
+    position: relative;
+    height: 500px;
+    width: 1024px;
+  }
+  .navbar
+  {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 16px;
+  }
+  .navbar-nav > li{
+    padding-left:30px;
+  }
+  nav .navbar-nav li a{
+    color: white;
+    text-decoration: none;
+  }
+  .dropdown-item
+  {
+    color: black !important;
+  }
+  .dropdown
+  {
+    margin-top: -12px;
+  }
+  .logo-img
+  {
+    position: absolute;
+    width: 43px;
+    height: 63px;
+    left: 50px;
+    top: 30px;
+  }
+  .txt4
+  {
+    position: absolute;
+    color: white;
+    left: 120px;
+    top: 40px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .txt-logo
+  {
+    font-size: 14px;
+  }
+  h1
+  {
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 420px;
+    top: 229px;
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img
+  {
+    position: relative;
+    height: 386px;
+    width: 768px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  img
+  {
+    position: relative;
+    height: 200px;
+    width: 375px;
+  }
+}
+

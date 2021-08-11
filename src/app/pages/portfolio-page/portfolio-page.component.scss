@@ -116,3 +116,237 @@ img
   padding-top: 5px;
 }
 
+@media only screen and (max-width: 1024px)
+{
+  .header
+  {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 36px;
+  }
+  section
+  {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  section ul{
+    display: flex;
+    flex-direction: row;
+  }
+  section ul li{
+    list-style: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 5px 10px;
+  }
+  section ul li.active{
+    background: #FFD300;
+    color: black;
+  }
+  //cards
+  .card-deck .card.hide{
+    display: none;
+  }
+  .card-deck
+  {
+    margin-left:30px;
+    margin-bottom: 30px;
+    width: 95%;
+  }
+  .card
+  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 474px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid #C4C4C4;
+  }
+  .card-deck .card.active{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 290px;
+    height: 474px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid #C4C4C4;
+  }
+  .card-deck a{
+    color: #3362AB;
+    text-underline-offset: 5px;
+  }
+  .card-title
+  {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  .card-text
+  {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #8F9BB3;
+  }
+  .card-deck .card.active img.card-img-top{
+    margin: 20px 20px 10px 20px;
+    width: 250px;
+    height: 200px;
+  }
+  img
+  {
+    margin: 20px 20px 10px 20px;
+    width: 250px;
+    height: 200px;
+  }
+  .overflow
+  {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .gray1
+  {
+    padding-top: 20px;
+    font-size: 16px !important;
+    color: #BDBDBD !important;
+  }
+  .gray2
+  {
+    padding-top: 40px;
+    font-size: 16px !important;
+    color: #BDBDBD !important;
+  }
+  .gray3
+  {
+    font-size: 16px !important;
+    color: #BDBDBD !important;
+    padding-top: 120px;
+  }
+}
+@media only screen and (max-width: 1024px)
+{
+  .header
+  {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 36px;
+  }
+  section
+  {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  section ul{
+    display: flex;
+    flex-direction: row;
+  }
+  section ul li{
+    list-style: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 5px 10px;
+  }
+  section ul li.active{
+    background: #FFD300;
+    color: black;
+  }
+  //cards
+  .card-deck .card.hide{
+    display: none;
+  }
+  .card-deck
+  {
+    margin-left:30px;
+    margin-bottom: 30px;
+    width: 95%;
+  }
+  .card
+  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 474px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid #C4C4C4;
+  }
+  .card-deck .card.active{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 290px;
+    height: 474px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid #C4C4C4;
+  }
+  .card-deck a{
+    color: #3362AB;
+    text-underline-offset: 5px;
+  }
+  .card-title
+  {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  .card-text
+  {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #8F9BB3;
+  }
+  .card-deck .card.active img.card-img-top{
+    margin: 20px 20px 10px 20px;
+    width: 250px;
+    height: 200px;
+  }
+  img
+  {
+    margin: 20px 20px 10px 20px;
+    width: 250px;
+    height: 200px;
+  }
+  .overflow
+  {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .gray1
+  {
+    padding-top: 20px;
+    font-size: 16px !important;
+    color: #BDBDBD !important;
+  }
+  .gray2
+  {
+    padding-top: 40px;
+    font-size: 16px !important;
+    color: #BDBDBD !important;
+  }
+  .gray3
+  {
+    font-size: 16px !important;
+    color: #BDBDBD !important;
+    padding-top: 120px;
+  }
+}

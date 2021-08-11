@@ -10,12 +10,15 @@
 table
 {
  padding-left: 100px;
+  padding-top: 150px;
 }
 h1
 {
   text-align: center;
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 572px;
   font-size: 36px;
+  position: absolute;
 }
 h3
 {
@@ -25,6 +28,7 @@ h3
 }
 li
 {
+  padding-left: 10px;
   font-size: 16px;
 }
 
@@ -43,15 +47,128 @@ img
 line-height: 45px;
 }
 .text{
-  line-height: 22px;
+  line-height: 26px;
   padding-left: 100px;
 }
-.padding
+
+.text div
 {
-  padding-left: 50px;
+  padding-top: 35px;
 }
 
-.line-height
+@media only screen and (max-width: 1024px)
 {
-  line-height: 40px;
+  .bgcolor
+  {
+    background-color: #F5F5F5;
+    padding-left: 0;
+    display: flex;
+    justify-items: center;
+    width: 1024px;
+    height: 591px;
+  }
+  table
+  {
+    padding-left: 100px;
+    padding-top: 120px;
+  }
+  h1
+  {
+    padding-top: 50px;
+    padding-left: 423px;
+    font-size: 36px;
+    position: absolute;
+  }
+  h3
+  {
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 10px;
+  }
+  li
+  {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  ul {
+    list-style-image: url(../../../../assets/icons/tick.svg);
+  }
+  img
+  {
+    display: none;
+  }
+  .txt1
+  {
+    line-height: 45px;
+  }
+  .text{
+    line-height: 25px;
+    padding-left: 100px;
+  }
+  .text div
+  {
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  .bgcolor
+  {
+    background-color: #F5F5F5;
+    padding-left: 0;
+    display: flex;
+    justify-items: center;
+    width: 768px;
+    height: 536px;
+  }
+  table
+  {
+    padding-left: 30px;
+    padding-top: 70px;
+  }
+  h1
+  {
+    padding-top: 20px;
+    padding-left: 325px;
+    font-size: 24px;
+    position: absolute;
+  }
+  h3
+  {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  li
+  {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  ul {
+    list-style-image: url(../../../../assets/icons/tick.svg);
+    padding-left: 32px;
+  }
+  img
+  {
+    display: none;
+  }
+  .txt1
+  {
+    line-height: 20px;
+  }
+  .txt1 li:nth-child(1)
+  {
+   padding-bottom: 20px;
+  }
+  .text{
+    line-height: 25px;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+  .text div
+  {
+    padding-top: 35px;
+  }
 }
