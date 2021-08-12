@@ -16,6 +16,7 @@ img
 }
 nav .navbar-nav li a{
   color: white;
+  background: none;
   text-decoration: none;
 }
 .dropdown
@@ -31,8 +32,8 @@ nav .navbar-nav li a{
   position: absolute;
   width: 43px;
   height: 63px;
-  left: 300px;
-  top: 40px;
+  left: -710px;
+  top: -15px;
 }
 .txt4
 {
@@ -73,10 +74,11 @@ h1
     font-size: 16px;
   }
   .navbar-nav > li{
-    padding-left:30px;
+    padding-left:40px;
   }
   nav .navbar-nav li a{
     color: white;
+    background: none;
     text-decoration: none;
   }
   .dropdown-item
@@ -92,8 +94,8 @@ h1
     position: absolute;
     width: 43px;
     height: 63px;
-    left: 50px;
-    top: 30px;
+    left: -250px;
+    top: -10px;
   }
   .txt4
   {
@@ -136,11 +138,19 @@ h1
     font-size: 16px;
   }
   .navbar-nav > li{
-    padding-left:30px;
+    padding-left:40px;
   }
   nav .navbar-nav li a{
     color: white;
+    background: none;
     text-decoration: none;
+  }
+  .navbar-header
+  {
+    background: black;
+    color: black;
+    position: absolute;
+    margin-bottom: 40px;
   }
   .dropdown-item
   {
@@ -155,8 +165,8 @@ h1
     position: absolute;
     width: 43px;
     height: 63px;
-    left: 50px;
-    top: 30px;
+    left: -650px;
+    top: -10px;
   }
   .txt4
   {
@@ -212,8 +222,8 @@ h1
     position: absolute;
     width: 43px;
     height: 63px;
-    left: 50px;
-    top: 30px;
+    left: -150px;
+    top: -10px;
   }
   .txt4
   {

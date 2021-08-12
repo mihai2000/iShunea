@@ -17,6 +17,7 @@
 }
 nav .navbar-nav li a{
   color: white;
+  background: none;
   text-decoration: none;
 }
 .dropdown
@@ -32,8 +33,8 @@ nav .navbar-nav li a{
   position: absolute;
   width: 43px;
   height: 63px;
-  left: 380px;
-  top: 50px;
+  left: -690px;
+  top: 5px;
 }
 .txt4
 {
@@ -64,11 +65,12 @@ nav .navbar-nav li a{
     right: 50px;
     font-size: 16px;
   }
-  .navbar-nav > li {
-    padding-left: 30px;
+  .navbar-nav > li{
+    padding-left:40px;
   }
-  nav .navbar-nav li a {
+  nav .navbar-nav li a{
     color: white;
+    background: none;
     text-decoration: none;
   }
   .dropdown-item {
@@ -81,8 +83,8 @@ nav .navbar-nav li a{
     position: absolute;
     width: 43px;
     height: 63px;
-    left: 50px;
-    top: 30px;
+    left: -250px;
+    top: -10px;
   }
   .txt4 {
     position: absolute;
@@ -112,24 +114,35 @@ nav .navbar-nav li a{
     font-size: 16px;
   }
   .navbar-nav > li {
-    padding-left: 30px;
+    padding-left: 40px;
   }
   nav .navbar-nav li a {
     color: white;
+    background: none;
     text-decoration: none;
   }
-  .dropdown-item {
+  .navbar-header
+  {
+    background: black;
+    color: white;
+    position: absolute;
+    margin-bottom: 50px;
+  }
+  .dropdown-item
+  {
     color: black !important;
   }
-  .dropdown {
+  .dropdown
+  {
     margin-top: -12px;
   }
-  .logo-img {
+  .logo-img
+  {
     position: absolute;
-    width: 34px;
-    height: 58px;
-    left: 50px;
-    top: 10px;
+    width: 43px;
+    height: 63px;
+    left: -650px;
+    top: -20px;
   }
   .txt4 {
     display: none;

@@ -7,7 +7,7 @@ img
 .navbar
 {
   position: absolute;
-  top: 60px;
+  top: 50px;
   right: -150px;
   font-size: 16px;
 }
@@ -23,16 +23,12 @@ nav .navbar-nav li a{  //schimbare
 {
   color: black !important;
 }
-//.dropdown
-//{
-//  margin-top: -12px;
-//}
 .logo-img
 {
   position: relative;
   width: 43px;
   height: 63px;
-  right: 690px; //schimbare
+  right: 700px;
   top: -10px;
 }
 .txt
@@ -271,6 +267,7 @@ svg
     background: black;
     color: black;
     position: absolute;
+    margin-bottom:40px;
   }
   .dropdown-item
   {
@@ -281,8 +278,8 @@ svg
     position: absolute;
     width: 43px;
     height: 63px;
-    right: 590px;
-    top: -120px;
+    right: 600px;
+    top: -20px;
   }
   .txt4
   {

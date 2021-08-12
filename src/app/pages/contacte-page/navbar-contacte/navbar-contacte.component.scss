@@ -16,6 +16,7 @@ img
 }
 nav .navbar-nav li a{
   color: white;
+  background: none;
   text-decoration: none;
 }
 .dropdown
@@ -31,8 +32,8 @@ nav .navbar-nav li a{
   position: absolute;
   width: 43px;
   height: 63px;
-  left: 300px;
-  top: 50px;
+  left: -700px;
+  top: -5px;
 }
 .txt4
 {
@@ -72,10 +73,11 @@ h1
     font-size: 16px;
   }
   .navbar-nav > li{
-    padding-left:30px;
+    padding-left:40px;
   }
   nav .navbar-nav li a{
     color: white;
+    background: none;
     text-decoration: none;
   }
   .dropdown-item
@@ -91,8 +93,8 @@ h1
     position: absolute;
     width: 43px;
     height: 63px;
-    left: 50px;
-    top: 30px;
+    left: -250px;
+    top: -10px;
   }
   .txt4
   {
@@ -125,6 +127,61 @@ h1
     position: relative;
     height: 386px;
     width: 768px;
+    margin-top: 90px;
+  }
+  .navbar
+  {
+    position: absolute;
+    top: 60px;
+    right: -150px;
+    font-size: 16px;
+  }
+  .navbar-nav > li{
+    padding-left:40px;
+  }
+  nav .navbar-nav li a{
+    color: white;
+    background: none;
+    text-decoration: none;
+  }
+  .navbar-header
+  {
+    background: black;
+    color: black;
+    position: absolute;
+    margin-bottom: 50px;
+    left: -200px;
+  }
+  .dropdown-item
+  {
+    color: black !important;
+  }
+  .dropdown
+  {
+    margin-top: -12px;
+  }
+  .logo-img
+  {
+    position: absolute;
+    width: 43px;
+    height: 63px;
+    left: -680px;
+    top: -30px;
+  }
+  .txt4 {
+    display: none;
+  }
+  .txt-logo {
+    display: none;
+  }
+  h1
+  {
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 290px;
+    top: 229px;
+    font-size: 36px;
   }
 }
 @media only screen and (max-width: 375px) {

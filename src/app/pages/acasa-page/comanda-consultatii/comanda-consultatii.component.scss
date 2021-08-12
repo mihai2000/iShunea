@@ -117,8 +117,12 @@
   }
   .txt
   {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    margin: 40px;
+    align-items: center;
+    align-content: flex-start;
+    margin: 40px 47px 40px 40px;
   }
   .txt a
   {

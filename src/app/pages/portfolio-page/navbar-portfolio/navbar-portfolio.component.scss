@@ -16,6 +16,7 @@ img
 }
 nav .navbar-nav li a{
   color: white;
+  background: none;
   text-decoration: none;
 }
 .dropdown
@@ -31,8 +32,8 @@ nav .navbar-nav li a{
   position: absolute;
   width: 43px;
   height: 63px;
-  left: 300px;
-  top: 50px;
+  left: -700px;
+  top: -5px;
 }
 .txt4
 {
@@ -73,10 +74,11 @@ h1
     font-size: 16px;
   }
   .navbar-nav > li{
-    padding-left:30px;
+    padding-left:40px;
   }
   nav .navbar-nav li a{
     color: white;
+    background: none;
     text-decoration: none;
   }
   .dropdown-item
@@ -92,8 +94,8 @@ h1
     position: absolute;
     width: 43px;
     height: 63px;
-    left: 50px;
-    top: 30px;
+    left: -250px;
+    top: -10px;
   }
   .txt4
   {
@@ -125,6 +127,7 @@ h1
   img
   {
     position: relative;
+    margin-top: 90px;
     width: 768px;
     height: 386px;
   }
@@ -140,37 +143,39 @@ h1
   }
   nav .navbar-nav li a{
     color: white;
+    background: none;
     text-decoration: none;
-  }
-  .dropdown-item
-  {
-    color: black !important;
   }
   .dropdown
   {
     margin-top: -12px;
+  }
+  .navbar-header
+  {
+    background: black;
+    color: black;
+    position: absolute;
+    margin-bottom: 50px;
+  }
+  .dropdown-item
+  {
+    color: black !important;
   }
   .logo-img
   {
     position: absolute;
     width: 43px;
     height: 63px;
-    left: 50px;
-    top: 30px;
+    left: -690px;
+    top: -10px;
   }
   .txt4
   {
-    position: absolute;
-    color: white;
-    left: 120px;
-    top: 40px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
   .txt-logo
   {
-    font-size: 14px;
+    display: none;
   }
   h1
   {
@@ -178,7 +183,7 @@ h1
     color: white;
     text-align: center;
     left: 285px;
-    top: 170px;
+    top: 229px;
     font-size: 36px;
   }
 }
