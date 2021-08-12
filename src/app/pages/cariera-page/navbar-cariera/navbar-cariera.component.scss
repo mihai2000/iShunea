@@ -23,6 +23,10 @@ nav .navbar-nav li a{
 {
   color: black !important;
 }
+.dropdown-item:hover
+{
+  background-color: #f2f2f2 !important;
+}
 .dropdown
 {
   margin-top: -12px;
@@ -92,6 +96,10 @@ h1
   .dropdown-item {
     color: black !important;
   }
+  .dropdown-item:hover
+  {
+    background-color: #f2f2f2 !important;
+  }
   .dropdown {
     margin-top: -12px;
   }
@@ -151,10 +159,12 @@ h1
     font-size: 16px;
   }
   .navbar-nav > li{
-    padding-left:40px;
+    margin-left:40px;
+    padding-top: 5px;
+    background: white;
   }
   nav .navbar-nav li a{
-    color: white;
+    color: black;
     background: none;
     text-decoration: none;
   }
@@ -169,13 +179,17 @@ h1
   {
     color: black !important;
   }
+  .dropdown-item:hover
+  {
+    background-color: #f2f2f2 !important;
+  }
   .logo-img
   {
     position: absolute;
     width: 43px;
     height: 63px;
     left: -650px;
-    top: -10px;
+    top: -110px;
   }
   .txt4
   {
@@ -207,5 +221,6 @@ h1
   }
 }
 @media only screen and (max-width: 375px) {
+
 }
 

@@ -23,6 +23,10 @@ nav .navbar-nav li a{  //schimbare
 {
   color: black !important;
 }
+ .dropdown-item:hover
+{
+  background-color: #f2f2f2 !important;
+}
 .logo-img
 {
   position: relative;
@@ -133,7 +137,7 @@ svg
     font-size: 16px;
   }
   .navbar-nav > li{
-    padding-left:10px;
+    padding-left:40px;
   }
   nav .navbar-nav li a{
     color: white;
@@ -143,6 +147,10 @@ svg
   .dropdown-item
   {
     color: black !important;
+  }
+  .dropdown-item:hover
+  {
+    background-color: #f2f2f2 !important;
   }
   .logo-img
   {
@@ -255,11 +263,13 @@ svg
     font-size: 16px;
   }
   .navbar-nav > li{
-    padding-left:10px;
+    padding-left:40px;
+    background: white;
+    background: white;
   }
   nav .navbar-nav li a{
-    color: white;
-    background: none;
+    color: black;
+    //background: none;
     text-decoration: none;
   }
   .navbar-header
@@ -267,11 +277,15 @@ svg
     background: black;
     color: black;
     position: absolute;
-    margin-bottom:40px;
+    //padding-bottom:40px;
   }
   .dropdown-item
   {
     color: black !important;
+  }
+  .dropdown-item:hover
+  {
+    background-color: #f2f2f2 !important;
   }
   .logo-img
   {
@@ -279,7 +293,7 @@ svg
     width: 43px;
     height: 63px;
     right: 600px;
-    top: -20px;
+    top: -120px;
   }
   .txt4
   {

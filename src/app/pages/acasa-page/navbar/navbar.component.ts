@@ -7,8 +7,9 @@ import {$} from "protractor";
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-
+  isCollapsed:boolean;
   constructor() {
+    this.isCollapsed=true;
   }
 
   ngOnInit(): void {

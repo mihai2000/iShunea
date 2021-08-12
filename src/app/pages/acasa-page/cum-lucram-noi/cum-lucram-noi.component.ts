@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
 
 
@@ -7,7 +7,7 @@ import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
   templateUrl: './cum-lucram-noi.component.html',
   styleUrls: ['./cum-lucram-noi.component.scss']
 })
-export class CumLucramNoiComponent implements OnInit {
+export class CumLucramNoiComponent  {
 
   constructor(private modalService: NgbModal) {}
 

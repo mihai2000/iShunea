@@ -27,6 +27,10 @@ nav .navbar-nav li a{
 {
   color: black !important;
 }
+.dropdown-item:hover
+{
+  background-color: #f2f2f2 !important;
+}
 .logo-img
 {
   position: absolute;
@@ -85,6 +89,10 @@ h1
   {
     color: black !important;
   }
+  .dropdown-item:hover
+  {
+    background-color: #f2f2f2 !important;
+  }
   .dropdown
   {
     margin-top: -12px;
@@ -140,9 +148,10 @@ h1
   }
   .navbar-nav > li{
     padding-left:30px;
+    background: white;
   }
   nav .navbar-nav li a{
-    color: white;
+    color: black;
     background: none;
     text-decoration: none;
   }
@@ -161,13 +170,17 @@ h1
   {
     color: black !important;
   }
+  .dropdown-item:hover
+  {
+    background-color: #f2f2f2 !important;
+  }
   .logo-img
   {
     position: absolute;
     width: 43px;
     height: 63px;
     left: -690px;
-    top: -10px;
+    top: -110px;
   }
   .txt4
   {
@@ -188,4 +201,79 @@ h1
   }
 }
 @media only screen and (max-width: 375px) {
+    img
+    {
+      position: relative;
+      margin-top: 90px;
+      height: 200px;
+      width: 375px;
+    }
+    .navbar
+    {
+      position: absolute;
+      top: 40px;
+      right: 50px;
+      font-size: 16px;
+    }
+    .navbar-nav > li{
+      margin-left:40px;
+      padding-top: 5px;
+      background: white;
+    }
+    nav .navbar-nav li a{
+      color: black;
+      background: none;
+      text-decoration: none;
+    }
+    .navbar-header
+    {
+      background: black;
+      color: black;
+      position: absolute;
+      margin-bottom:40px;
+    }
+    .dropdown-item
+    {
+      color: black !important;
+    }
+  .dropdown-item:hover
+  {
+    background-color: #f2f2f2 !important;
+  }
+    .logo-img
+    {
+      position: absolute;
+      width: 43px;
+      height: 63px;
+      left: -650px;
+      top: -110px;
+    }
+    .txt4
+    {
+      display: none;
+    }
+    .txt-logo
+    {
+      display: none;
+    }
+    h1
+    {
+      position: absolute;
+      color: white;
+      text-align: center;
+      left: 250px;
+      top: 200px;
+      font-size: 36px;
+    }
+    .txt
+    {
+      position: absolute;
+      left:80px;
+      top: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      word-spacing: 8px;
+      margin-bottom: 20px;
+    }
 }

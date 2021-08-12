@@ -1067,9 +1067,9 @@ label
   }
   .text_approch1{
     font-size: 18px;
-    margin-right: 600px;
-    text-align: left;
-    width: 100%;
+    margin-right: 500px;
+    margin-bottom: 70px;
+    width: 50%;
   }
   .text_approch1 p{
     display: none;
@@ -1089,13 +1089,14 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    z-index: 1;
   }
 
   .steps1Div{
-    justify-content: start;
+    display: flex;
+    justify-content: flex-start;
     margin-top: -100px;
-    margin-left: -750px;
+    margin-left: -800px;
+    margin-bottom: -10px;
   }
   .steps_button_Div{
     padding-top: 50px;
@@ -1117,7 +1118,10 @@ label
   .text_approch2
   {
     font-size: 18px;
-
+    margin-right: 500px;
+    //text-align: left;
+    margin-bottom: 70px;
+    width: 50%;
   }
   .text_approch2 p{
     display: none;
@@ -1135,7 +1139,6 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;;
     font-size: 16px;
-    z-index: 1;
   }
 
   .text_approch3
@@ -1158,7 +1161,6 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;;
     font-size: 16px;
-    z-index: 1;
   }
   .text_approch4
   {
@@ -1183,12 +1185,10 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;;
     font-size: 16px;
-    z-index: 1;
   }
   .text_approch5
   {
     font-size: 18px;
-
   }
   .text_approch5 p{
     display: none;
@@ -1205,7 +1205,6 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;;
     font-size: 16px;
-    z-index: 1;
   }
   .text_approch6
   {
@@ -1231,7 +1230,6 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;;
     font-size: 16px;
-    z-index: 1;
   }
 
   .img_approche8{
@@ -1246,7 +1244,6 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;;
     font-size: 16px;
-    z-index: 1;
   }
   .img_approche9{
     display: none;
@@ -1261,7 +1258,6 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;;
     font-size: 16px;
-    z-index: 1;
   }
   .img_approche10{
     display: none;
@@ -1275,7 +1271,6 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    z-index: 1;
   }
 
   .img_approche11{
@@ -1290,7 +1285,6 @@ label
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    z-index: 1;
   }
   .linie1{
     display: none;
@@ -1327,7 +1321,6 @@ label
     width: 187px;
     font-weight: 600;
     font-size: 16px;
-    z-index: 1;
   }
   //ngb-template css
   .modal-title
